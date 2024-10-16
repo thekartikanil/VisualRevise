@@ -5,7 +5,6 @@ from pygments import highlight
 from pygments.lexers import get_lexer_by_name
 from pygments.formatters import ImageFormatter
 import io
-from CodeStyle import CustomCodeStyle
 from json_loader import load_json
 
 def create_code_image(code, output_file, file_name):
