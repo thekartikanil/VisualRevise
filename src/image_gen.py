@@ -50,7 +50,7 @@ def create_code_image(code, output_file, file_name):
 
     title_font = ImageFont.truetype("FiraCode.ttf", 20)
     draw.text((75, 5), file_name, font=title_font, fill=(76, 161, 175))
-    draw.text((final_image.width - 100, 5), "by _rust.rs 💕", font=title_font, fill=(76, 161, 175))
+    draw.text((final_image.width - 100, 5), "by Anil 💕", font=title_font, fill=(76, 161, 175))
 
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
